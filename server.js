@@ -26,8 +26,9 @@ app.use(function (req, res, next) {
 // from a cloud data store
 const mockEvents = {
     events: [
-        { title: 'an event', id: 1, description: 'something really cool' },
-        { title: 'another event', id: 2, description: 'something even cooler' }
+        { title: 'Event 1', id: 1, description: 'Musician 1' },
+        { title: 'Event 2', id: 2, description: 'Businessman 1' },
+        { title: 'Event 3', id: 2, description: 'Politician 1' }
     ]
 };
 
